@@ -1,0 +1,2 @@
+floating point numbers are all signed and their types are f32 and f64 with the default being f64
+compound types - can group mutliple values into one type - rust has two primtive ones, tuples and arrays
