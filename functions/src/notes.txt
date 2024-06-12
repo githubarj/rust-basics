@@ -1,0 +1,5 @@
+functions can contain statements or expressions , a statement is a set of instructions that does not return a value
+expressions evaluate to a resultant value
+
+a statment can contain an exprssiion but nit the other way around
+an expression does not have ending smi colons as it would turn it into a statement
