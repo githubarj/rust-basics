@@ -28,6 +28,6 @@ fn main () {
         .read_line(&mut a)
         .expect("Failed to read line");
     let a = a.trim().len();
-    println!("The word lenght is {a}");
+    println!("The word lenght is {a}"); 
 
 }

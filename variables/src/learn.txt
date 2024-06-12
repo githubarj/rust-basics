@@ -1,0 +1,21 @@
+two data subsets: scalar and compound
+rust is statically types so we must know all values of variables at compile time
+in areas where many types are possible we must add a type annotation - let guess : u32 = "42".parse().expect("not a number");
+Scalar types - respresents a single value 
+integers
+booleans
+characters
+floating-point numbers
+
+Integer is a number without a fractional component
+types of integers
+8-bit - signed = i8 unsigned = u8
+16-bit - i16 u16
+32-bit
+64bit
+128-bit
+256-bit
+arch - isize usize
+signes and unsigned means whether a number will ever be negative or will forever be positive - i.e have a sign
+each variant if it is a signed variant can store numbers from -(2^n-1) to (2^n-1) - 1. so i8 can store from -128 to 127
+each unsigned variant can store numbers from 0 to (2n-1) so u8 - 0 to 255
