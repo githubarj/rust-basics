@@ -1,0 +1,14 @@
+A string is made up of three parts - the pointer to the memory athat holds the contants of the string
+                                    - a lenght and a capacity
+- This group is stored on  the stack - ponter points to th emoemory on the heap that stored the contents of the string
+lenght shows how much memoery in bytes the contants of the string are currently using. while the capacity
+is the total mount of memory in bytes that the string has received from the allocator
+
+
+when you assign complex data types to other variables, it copies the pointer, lenght and capacity not the heap memory
+rust therefore deems the inital variable as nolonger valid
+
+if we do want to copy the data in the heap we can use a method called clone
+
+copy can be implemented by the integer types, character types, boolean types and tupes if they only 
+contain types that also implement copy 
