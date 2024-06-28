@@ -16,6 +16,25 @@ impl Message {
     }
 }
 
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
+}
+
+fn value_in_cents (x: Coin) -> i32 {
+    match x {
+        Coin::Penny => {
+            println!("This arm has been activated");
+            1
+        }
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter => 25
+    }
+}
+
 fn main() {
 
     let home = IpAddrKind::V4(String::from("::1" ));
@@ -25,6 +44,8 @@ fn main() {
     let some_char  = Some('e');
 
     let absent_number : Option<i32> =None;
+
+
 
 
     println!("Hello, world!");
